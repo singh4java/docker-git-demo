@@ -14,15 +14,10 @@ public class App
 {
     public static void main( String[] args )
     {
-    	List<Employee> emplist = new ArrayList<Employee>();
     	for(int i=1;i<5;i++){
-    		emplist.add(new Employee(i, "name"+i, "Bangalore address"+i));
+    		System.out.println( "Hello World!" );
     	}
-    	for (Iterator iterator = emplist.iterator(); iterator.hasNext();) {
-			Employee employee = (Employee) iterator.next();
-			System.out.println(employee.toString());
-			
-		}
-        System.out.println( "Hello World!" );
+    	
+        
     }
 }
